@@ -38,37 +38,38 @@ public class SkillsController {
             return "<!DOCTYPE html>\n" +
                     "<html>\n" +
                     "<head>\n" +
-                    "    <meta charset=\"UTF-8\">\n" +
+                    "    <meta charset='UTF-8'>\n" +
                     "    <title>Skills Tracker Form</title>\n" +
                     "</head>\n" +
                     "<body>\n" +
                     "    <h1>Skills Tracker Form</h1>\n" +
-                    "    <form method=\"post\" action=\"/form\">\n" +
-                    "        <label for=\"name\">Name:</label>\n" +
-                    "        <input type=\"text\" id=\"name\" name=\"name\"><br><br>\n" +
-                    "        <label for=\"favorite\">Favorite language:</label>\n" +
-                    "        <select id=\"favorite\" name=\"favorite\">\n" +
-                    "            <option value=\"Java\">Java</option>\n" +
-                    "            <option value=\"Python\">Python</option>\n" +
-                    "            <option value=\"JavaScript\">JavaScript</option>\n" +
+                    "    <form method='post' action='/form'>\n" +
+                    "        <label for='name'>Name:</label>\n" +
+                    "        <input type='text' id='name' name='name'><br><br>\n" +
+                    "        <label for='favorite'>Favorite language:</label>\n" +
+                    "        <select id='favorite' name='favorite'>\n" +
+                    "            <option value='Java'>Java</option>\n" +
+                    "            <option value='Python'>Python</option>\n" +
+                    "            <option value='JavaScript'>JavaScript</option>\n" +
                     "        </select><br><br>\n" +
-                    "        <label for=\"secondFavorite\">Second favorite language:</label>\n" +
-                    "        <select id=\"secondFavorite\" name=\"secondFavorite\">\n" +
-                    "            <option value=\"Java\">Java</option>\n" +
-                    "            <option value=\"Python\">Python</option>\n" +
-                    "            <option value=\"JavaScript\">JavaScript</option>\n" +
+                    "        <label for='secondFavorite'>Second favorite language:</label>\n" +
+                    "        <select id='secondFavorite' name='secondFavorite'>\n" +
+                    "            <option value='Java'>Java</option>\n" +
+                    "            <option value='Python'>Python</option>\n" +
+                    "            <option value='JavaScript'>JavaScript</option>\n" +
                     "        </select><br><br>\n" +
-                    "        <label for=\"thirdFavorite\">Third favorite language:</label>\n" +
-                    "        <select id=\"thirdFavorite\" name=\"thirdFavorite\">\n" +
-                    "            <option value=\"Java\">Java</option>\n" +
-                    "            <option value=\"Python\">Python</option>\n" +
-                    "            <option value=\"JavaScript\">JavaScript</option>\n" +
+                    "        <label for='thirdFavorite'>Third favorite language:</label>\n" +
+                    "        <select id='thirdFavorite' name='thirdFavorite'>\n" +
+                    "            <option value='Java'>Java</option>\n" +
+                    "            <option value='Python'>Python</option>\n" +
+                    "            <option value='JavaScript'>JavaScript</option>\n" +
                     "        </select><br><br>\n" +
-                    "        <input type=\"submit\" value=\"Submit\">\n" +
+                    "        <input type='submit' value='Submit'>\n" +
                     "    </form>\n" +
                     "</body>\n" +
                     "</html>";
         }
+
 
         @PostMapping("/form")
         @ResponseBody
